@@ -1,5 +1,6 @@
 # Ruter-trip
 
+We chose the task about predicting the amount of passangers on a spesific bus. The data was gathered from a dataset provided by ruter. 
 Choosing Poisson Regressor for Ruter Data Analysis
 
 1. Poisson Regressor is well-suited for modeling count data like passenger numbers, as it directly models a count output based on input features like date and bus line, assuming the mean and variance of the distribution are equal.
