@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import r2_score, mean_squared_error
 
 # Load and preprocess the dataset
-ruter_data = pd.read_csv('ruter-data.csv', delimiter=';')
+ruter_data = pd.read_csv("https://raw.githubusercontent.com/atikagondal/Assignment-2-dave3625-202323/main/Ruter-data.csv", delimiter=';')
 ruter_data['Dato'] = pd.to_datetime(ruter_data['Dato'], format='%d/%m/%Y')
 ruter_data['DayOfWeek'] = ruter_data['Dato'].dt.dayofweek
 ruter_data['Month'] = ruter_data['Dato'].dt.month
